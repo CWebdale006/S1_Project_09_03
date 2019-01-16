@@ -39,6 +39,7 @@ div.slider {
 /* Control Styles */
 /*For all labels, floats the label on the left margin once the left margin is clear, displays the label as a block with a width of 40%, and sets the top/bottom margin to 2 pixels and the left/right margin to 0 pixels. */
 label {
+    clear: both;
     float: left;
     display: block;
     width: 40%;
@@ -79,9 +80,24 @@ textarea {
 }
 
 /* Placeholder Styles */
-textarea::-webkit-input-placeholder,
-textarea::-moz-placeholder,
-textarea::-ms-input-placeholder,
+textarea::-webkit-input-placeholder {
+    background-color: rgb(255, 255, 191);
+    color: rgb(255, 151, 151);
+    font-size: 1.5em;
+}
+
+textarea::-moz-placeholder {
+    background-color: rgb(255, 255, 191);
+    color: rgb(255, 151, 151);
+    font-size: 1.5em;
+}
+
+textarea::-ms-input-placeholder {
+    background-color: rgb(255, 255, 191);
+    color: rgb(255, 151, 151);
+    font-size: 1.5em;
+}
+
 textarea::placeholder {
     background-color: rgb(255, 255, 191);
     color: rgb(255, 151, 151);
