@@ -80,6 +80,7 @@ textarea {
 }
 
 /* Placeholder Styles */
+/*Uses the WebKit, Moz, and MS browser extensions to affect placeholder text. Changes background color, font color, and font size. Combining each selector into a comma separated list didn't work. */
 textarea::-webkit-input-placeholder {
     background-color: rgb(255, 255, 191);
     color: rgb(255, 151, 151);
